@@ -1,0 +1,70 @@
+
+</head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+        
+        
+        
+<!-- https://redmonk.com/sogrady/2018/08/10/language-rankings-6-18/ -->
+<table id="table-id" class="table">
+  <caption>Рейтинг языков программирования</caption>
+    <thead>
+          <tr>
+            <th>#</th>
+            <th>Название</th>
+            <th>Цена</th>
+            <th>Количество часов</th>
+      </tr>
+  </thead>
+  <tbody>
+       <tr>
+         <td>1</td>
+         <td>JavaScript</td>
+         <td>3000</td>
+         <td>24</td>
+  </tr>
+       <tr>
+         <td>2</td>
+         <td>Java</td>
+         <td>5600</td>
+         <td>32</td>
+  </tr>
+       <tr>
+         <td>3</td>
+         <td>Python</td>
+         <td>3400</td>
+         <td>24</td>
+  </tr>
+       <tr>
+         <td>4</td>
+         <td>PHP</td>
+         <td>2900</td>
+         <td>16</td>
+  </tr>
+       <tr>
+         <td>5</td>
+         <td>C</td>
+         <td>7900</td>
+         <td>32</td>
+  </tr>
+       <tr>
+         <td>6</td>
+         <td>C</td>
+         <td>1500</td>
+         <td>40</td>
+  </tr>
+       <tr>
+         <td>7</td>
+         <td>Ruby</td>
+         <td>8000</td>
+         <td>48</td>
+  </tr>
+   <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.1.0/tablesort.min.js"></scrip
+      </tbody>
+</table>
