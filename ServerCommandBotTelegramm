@@ -1,0 +1,29 @@
+import telebot 
+import time
+from subprocess import check_output
+
+bot = telebot.TeleBot("1256663104:AAF4rPBJAAdIrIKioVT7_uQfso5O-ZsJB-0")
+my_userid = [1053023413,213213123]
+
+
+@bot.message_handler(content_types=["text"])
+
+
+def mainpage(messages):
+	if (my_userid == messages.chat.id): #cheak write user
+		comand = messages.text 
+		try: 
+			bot.send_message(messages.chat.id, cheak_output(comand, shell = True))
+
+		except: 
+			bot.send_message(messages.chat.id, "Invalid")#no correckt command
+
+
+if __name__ == '__main__':
+	while True:
+		try:
+			bot.polling(non_stope = True) #pool bots
+
+
+		except:
+			time.sleep(1)
